@@ -1,0 +1,23 @@
+{
+  "name": "twitchr-example",
+  "version": "0.0.1",
+  "description": "A simple example plugin for twitchr",
+  "author": "Jonas Bürkel <buerkelj@gmail.com>",
+  "main": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twitchr/twitchr-example"
+  },
+  "bugs": {
+    "url": "https://github.com/twitchr/twitchr-example/issues"
+  },
+  "keywords": [
+    "twitchr",
+    "example",
+    "plugin"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "twitchr-plugin-api": "0.0.1"
+  }
+}
