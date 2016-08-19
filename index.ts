@@ -1,15 +1,20 @@
-import * as pluginApi from 'twitchr-plugin-api';
+import * as api from 'twitchr-plugin-api';
 
-function onMessage(nick: string, to: string, text: string): string {
-    let d: Date = new Date();
-    return `${nick} (${d.toLocaleTimeString()}): ${text}`;
+function onMessage(irc: api.IrcContext<api.IrcMessage>): void {
+    const args: api.IrcMessage = <api.IrcMessage>irc.getArgs();
+    const name: string = irc.getName();
+
+    if (args.user !== name) {
+        irc.timeout(args.user, 5);
+        irc.send('gg ez');
+    }
 }
 
-let hooks: pluginApi.PluginEventListener = {
+const hooks: api.PluginEventListener = {
     onMessage: onMessage,
 };
 
-let plugin: pluginApi.Plugin = {
+const plugin: api.Plugin = {
     hooks: hooks,
 };
 
