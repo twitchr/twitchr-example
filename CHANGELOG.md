@@ -1,20 +1,27 @@
+<a name="0.3.0"></a>
+# [0.3.0](https://github.com/twitchr/twitchr-example/compare/v0.2.0...0.3.0) (2016-09-04)
+
+### Features
+
+- Updated example to reflect changes in `twitchr-plugin-api@0.3.0` and `twitchr@0.0.4`
+
 <a name="0.2.0"></a>
-# 0.2.0 update-api (2016-08-20)
+# 0.2.0 (2016-08-20)
 
-## Features
+### Features
 
-- Updated example to reflect API changes in version `0.2.0`
+- Updated example to reflect changes in `twitchr-plugin-api@0.2.0`
 
 <a name="0.1.0"></a>
-# 0.1.0 add-readme (2016-05-28)
+# 0.1.0 (2016-05-28)
 
-## Features
+### Features
 
 - Added documentation
 
 <a name="0.0.1"></a>
-# 0.0.1 initial-commit (2016-05-23)
+# 0.0.1 (2016-05-23)
 
-## Features
+### Features
 
 - Initial commit
