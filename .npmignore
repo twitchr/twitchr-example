@@ -1,0 +1,5 @@
+/.idea/
+/tsconfig.json
+/typings/
+/typings.json
+*.ts
