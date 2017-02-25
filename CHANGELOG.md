@@ -1,3 +1,10 @@
+<a name="0.3.1"></a>
+# [0.3.1](https://github.com/twitchr/twitchr-example/compare/0.3.0...0.3.1) (2017-02-25)
+
+### Features
+
+- Updated project
+
 <a name="0.3.0"></a>
 # [0.3.0](https://github.com/twitchr/twitchr-example/compare/v0.2.0...0.3.0) (2016-09-04)
 
