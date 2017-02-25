@@ -1,7 +1,7 @@
 import * as api from 'twitchr-plugin-api';
 import * as debug from 'debug';
 
-const debugPlugin: debug.Debugger = debug('twitchr-plugin:example');
+const debugPlugin: debug.IDebugger = debug('twitchr-plugin:example');
 
 function onMessage(irc: api.IrcContext<api.IrcMessage>): void {
     const args: api.IrcMessage = <api.IrcMessage>irc.getArgs();
